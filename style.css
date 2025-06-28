@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: #f3f8f4;
+}
+
+h2 {
+  font-size: 28px;
+  text-align: center;
+  color: #4b6652;
+}
+
+#textInput {
+  font-size: 24px;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #c7dec5;
+  border-radius: 8px;
+}
+
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.key {
+  background: #d9ead3;
+  padding: 20px 28px;
+  font-size: 24px;
+  border-radius: 10px;
+  border: 1px solid #888;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.2s;
+}
+
+.key:active {
+  background: #b6d7a8;
+}
